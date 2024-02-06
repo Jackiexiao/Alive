@@ -537,76 +537,83 @@
   dependencies:
     mini-svg-data-uri "^1.2.3"
 
-"@tauri-apps/api@1.5.3", "@tauri-apps/api@^1.5.2":
-  version "1.5.3"
-  resolved "https://registry.npmmirror.com/@tauri-apps/api/-/api-1.5.3.tgz#f7b362b1f30aadb0a8bbeb7ae111755c0ed33d73"
-  integrity sha512-zxnDjHHKjOsrIzZm6nO5Xapb/BxqUq1tc7cGkFXsFkGTsSWgCPH1D8mm0XS9weJY2OaR73I3k3S+b7eSzJDfqA==
+"@tauri-apps/api@2.0.0-beta.0", "@tauri-apps/api@^2.0.0-beta.0":
+  version "2.0.0-beta.0"
+  resolved "https://registry.npmmirror.com/@tauri-apps/api/-/api-2.0.0-beta.0.tgz#36b10e6f459fd125530ac083262a355b84ce9b95"
+  integrity sha512-WLoh/Vk8cgY7XrJV7Vpb6PssReBZWQCATfYBb1aCRDk+sp0NyPwumx6fZ2ECAKzAcs3OeanluwZcajruIW4CPQ==
 
-"@tauri-apps/cli-darwin-arm64@1.5.9":
-  version "1.5.9"
-  resolved "https://registry.npmmirror.com/@tauri-apps/cli-darwin-arm64/-/cli-darwin-arm64-1.5.9.tgz#38c6cc3a82cb5e13d311a0b55507c9e9c830685c"
-  integrity sha512-7C2Jf8f0gzv778mLYb7Eszqqv1bm9Wzews81MRTqKrUIcC+eZEtDXLex+JaEkEzFEUrgIafdOvMBVEavF030IA==
+"@tauri-apps/cli-darwin-arm64@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.npmmirror.com/@tauri-apps/cli-darwin-arm64/-/cli-darwin-arm64-2.0.0-beta.1.tgz#ad90a2b82dc0b3f2e08b4bcff2d95797120fc9ea"
+  integrity sha512-d71utEr9H3fXAI6nKPaPuINpnvMQn+UIscOTzTMcrmIDqptOO0ix8z6C3HSvNxV0OjtlxzNJGWwOb24U0OYrgw==
 
-"@tauri-apps/cli-darwin-x64@1.5.9":
-  version "1.5.9"
-  resolved "https://registry.npmmirror.com/@tauri-apps/cli-darwin-x64/-/cli-darwin-x64-1.5.9.tgz#b0bb7958945e74b33e41cc840d6289558d8bc9b1"
-  integrity sha512-LHKytpkofPYgH8RShWvwDa3hD1ws131x7g7zNasJPfOiCWLqYVQFUuQVmjEUt8+dpHe/P/err5h4z+YZru2d0A==
+"@tauri-apps/cli-darwin-x64@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.npmmirror.com/@tauri-apps/cli-darwin-x64/-/cli-darwin-x64-2.0.0-beta.1.tgz#8212d9d2c0d4492f23e4562588c2b1113cb6cd50"
+  integrity sha512-bzsWZjQt5NG1uhbDTGw8Hmvm+J1d+9J7HXMMMwQc4E3kBns95sr4bIoXvgIq3cZYS4uyZOvdhEdjkSGg1c65Lg==
 
-"@tauri-apps/cli-linux-arm-gnueabihf@1.5.9":
-  version "1.5.9"
-  resolved "https://registry.npmmirror.com/@tauri-apps/cli-linux-arm-gnueabihf/-/cli-linux-arm-gnueabihf-1.5.9.tgz#610023c827cc71b4d6715cb966112db34bcfde5c"
-  integrity sha512-teGK20IYKx+dVn8wFq/Lg57Q9ce7foq1KHSfyHi464LVt1T0V1rsmULSgZpQPPj/NYPF5BG78PcWYv64yH86jw==
+"@tauri-apps/cli-linux-arm-gnueabihf@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.npmmirror.com/@tauri-apps/cli-linux-arm-gnueabihf/-/cli-linux-arm-gnueabihf-2.0.0-beta.1.tgz#9713c073b473a9dee8c4b4951e5aa6e0e87febf5"
+  integrity sha512-FMnZpk4a5D9QgZKkT00P3f4CHEZFpn/b+pWfZJ7vxCdir+Cc1eKOHiqhvmMBEeLlYlQFBaYeAK0EaZWnN82ZJA==
 
-"@tauri-apps/cli-linux-arm64-gnu@1.5.9":
-  version "1.5.9"
-  resolved "https://registry.npmmirror.com/@tauri-apps/cli-linux-arm64-gnu/-/cli-linux-arm64-gnu-1.5.9.tgz#d2b088d16ee321b7021f62cd873c976690c3da46"
-  integrity sha512-onJ/DW5Crw38qVx+wquY4uBbfCxVhzhdJmlCYqnYyXsZZmSiPUfSyhV58y+5TYB0q1hG8eYdB5x8VAwzByhGzw==
+"@tauri-apps/cli-linux-arm64-gnu@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.npmmirror.com/@tauri-apps/cli-linux-arm64-gnu/-/cli-linux-arm64-gnu-2.0.0-beta.1.tgz#81d83894c3d08c52698da700f127d9d35dc2128a"
+  integrity sha512-0kE65P+6ppeAOFsJV6av5VhkjDv1dcHkObErpjJHpwYowuC3aqaCCnH3biR9gNvcoVUXsCwmMA/BkxUpq9W9/g==
 
-"@tauri-apps/cli-linux-arm64-musl@1.5.9":
-  version "1.5.9"
-  resolved "https://registry.npmmirror.com/@tauri-apps/cli-linux-arm64-musl/-/cli-linux-arm64-musl-1.5.9.tgz#433f35e7daa59cc8fb8e0212c370f49c9fbfd598"
-  integrity sha512-23AYoLD3acakLp9NtheKQDJl8F66eTOflxoPzdJNRy13hUSxb+W9qpz4rRA+CIzkjICFvO2i3UWjeV9QwDVpsQ==
+"@tauri-apps/cli-linux-arm64-musl@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.npmmirror.com/@tauri-apps/cli-linux-arm64-musl/-/cli-linux-arm64-musl-2.0.0-beta.1.tgz#5239d2dc67e1dafac6a9deb64054028e099957e7"
+  integrity sha512-Wsj1eSrrAVeuFQWJq1gVIA78I8JM50fEsxbrMAOf89ZXpCYxJTNCJkyRQyLB+yHhv9nmhA3a1Mmr5ubhRETy1Q==
 
-"@tauri-apps/cli-linux-x64-gnu@1.5.9":
-  version "1.5.9"
-  resolved "https://registry.npmmirror.com/@tauri-apps/cli-linux-x64-gnu/-/cli-linux-x64-gnu-1.5.9.tgz#3d733f9d9706273bdb1f247bbfcca21f2acedcc8"
-  integrity sha512-9PQA1rE7gh41W2ylyKd5qOGOds55ymaYPml9KOpM0g+cxmCXa+8Wf9K5NKvACnJldJJ6cekWzIyB4eN6o5T+yQ==
+"@tauri-apps/cli-linux-x64-gnu@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.npmmirror.com/@tauri-apps/cli-linux-x64-gnu/-/cli-linux-x64-gnu-2.0.0-beta.1.tgz#639c801e431816f1548c5a6a0e63b8449cc80db4"
+  integrity sha512-LkzLJWg+ud2gWuq8yAWJ3Sahrp79Vbd2Cotbm/RbfMi7RbRV8TQYj4zfUhyFJVnk4nF89kTnwfNxLdTw67CAOw==
 
-"@tauri-apps/cli-linux-x64-musl@1.5.9":
-  version "1.5.9"
-  resolved "https://registry.npmmirror.com/@tauri-apps/cli-linux-x64-musl/-/cli-linux-x64-musl-1.5.9.tgz#eeb0b55fa7257d7566b873734d2c230dca0f1c6c"
-  integrity sha512-5hdbNFeDsrJ/pXZ4cSQV4bJwUXPPxXxN3/pAtNUqIph7q+vLcBXOXIMoS64iuyaluJC59lhEwlWZFz+EPv0Hqg==
+"@tauri-apps/cli-linux-x64-musl@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.npmmirror.com/@tauri-apps/cli-linux-x64-musl/-/cli-linux-x64-musl-2.0.0-beta.1.tgz#d0e07f10ab9de95d117acce1d9787eb6a625013a"
+  integrity sha512-Ro3PuLSNEZAw9/Rc2CP3k9P7LaUQ2TOFXJeW6G4aCXrd0MlJwlGhhjdZuLbmgzD1rda4dSpZGJPhbYvu8YD7eQ==
 
-"@tauri-apps/cli-win32-arm64-msvc@1.5.9":
-  version "1.5.9"
-  resolved "https://registry.npmmirror.com/@tauri-apps/cli-win32-arm64-msvc/-/cli-win32-arm64-msvc-1.5.9.tgz#f772456d3ef97050e467e88e9d95b6b68b4206e7"
-  integrity sha512-O18JufjSB3hSJYu5WWByONouGeX7DraLAtXLErsG1r/VS3zHd/zyuzycrVUaObNXk5bfGlIP0Ypt+RvZJILN2w==
+"@tauri-apps/cli-win32-arm64-msvc@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.npmmirror.com/@tauri-apps/cli-win32-arm64-msvc/-/cli-win32-arm64-msvc-2.0.0-beta.1.tgz#9b7e964413031cab6bc938468983e4bb80b44d38"
+  integrity sha512-SWNF+5B+lBbW/Kq1wTMVG9x97PqJUOo8eWAr/nlMm3J0lYbTWAa8/ScibaPjq82HiPhv8WCJXlcO6FEqWCoJ2A==
 
-"@tauri-apps/cli-win32-ia32-msvc@1.5.9":
-  version "1.5.9"
-  resolved "https://registry.npmmirror.com/@tauri-apps/cli-win32-ia32-msvc/-/cli-win32-ia32-msvc-1.5.9.tgz#2aa3b267e23d0dd2ece4e183bbd2a85c3e7e4c60"
-  integrity sha512-FQxtxTZu0JVBihfd/lmpxo7jyMOesjWQehfyVUqtgMfm5+Pvvw0Y+ZioeDi1TZkFVrT3QDYy8R4LqDLSZVMQRA==
+"@tauri-apps/cli-win32-ia32-msvc@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.npmmirror.com/@tauri-apps/cli-win32-ia32-msvc/-/cli-win32-ia32-msvc-2.0.0-beta.1.tgz#7c390f30135e9c26b6685296bb7890447a92a5f7"
+  integrity sha512-NvfP16fSlfq6GLHJH+gAxEsJn+Jvz3HoxMTLxAg7Ra0ycMODFu4xbNn6Hp7Djn297qTHHLYDva4Np6Whw5DUlQ==
 
-"@tauri-apps/cli-win32-x64-msvc@1.5.9":
-  version "1.5.9"
-  resolved "https://registry.npmmirror.com/@tauri-apps/cli-win32-x64-msvc/-/cli-win32-x64-msvc-1.5.9.tgz#3b970c949326f5874cc88a016372cb87485c15a1"
-  integrity sha512-EeI1+L518cIBLKw0qUFwnLIySBeSmPQjPLIlNwSukHSro4tAQPHycEVGgKrdToiCWgaZJBA0e5aRSds0Du2TWg==
+"@tauri-apps/cli-win32-x64-msvc@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.npmmirror.com/@tauri-apps/cli-win32-x64-msvc/-/cli-win32-x64-msvc-2.0.0-beta.1.tgz#a82890bcd8b15feded016a2bfa51a1d199dc17f5"
+  integrity sha512-9TKbDQyVHW0p1a7aXQEKg+MhCyFMpzD26puLKOxbTPiTcRUR4lUFq5Bhf1VR5ihoqnZNhJEtuR1mA16ZrIkuKQ==
 
-"@tauri-apps/cli@^1.5.8":
-  version "1.5.9"
-  resolved "https://registry.npmmirror.com/@tauri-apps/cli/-/cli-1.5.9.tgz#43391e4b6997483d485d84d97e0d72f648eae581"
-  integrity sha512-knSt/9AvCTeyfC6wkyeouF9hBW/0Mzuw+5vBKEvzaGPQsfFJo1ZCp5FkdiZpGBBfnm09BhugasGRTGofzatfqQ==
+"@tauri-apps/cli@^2.0.0-beta.0":
+  version "2.0.0-beta.1"
+  resolved "https://registry.npmmirror.com/@tauri-apps/cli/-/cli-2.0.0-beta.1.tgz#d9e42dd2d2f9319dffcceacb82d18e19b4acf840"
+  integrity sha512-u3AcZPdHsg9qT3e9PSD0H2IVZetQvWuBOyF81CN7/sY+AJGOli7i2d38Bj4wJs50tuMotoseiMcxuyxTlAdBnw==
   optionalDependencies:
-    "@tauri-apps/cli-darwin-arm64" "1.5.9"
-    "@tauri-apps/cli-darwin-x64" "1.5.9"
-    "@tauri-apps/cli-linux-arm-gnueabihf" "1.5.9"
-    "@tauri-apps/cli-linux-arm64-gnu" "1.5.9"
-    "@tauri-apps/cli-linux-arm64-musl" "1.5.9"
-    "@tauri-apps/cli-linux-x64-gnu" "1.5.9"
-    "@tauri-apps/cli-linux-x64-musl" "1.5.9"
-    "@tauri-apps/cli-win32-arm64-msvc" "1.5.9"
-    "@tauri-apps/cli-win32-ia32-msvc" "1.5.9"
-    "@tauri-apps/cli-win32-x64-msvc" "1.5.9"
+    "@tauri-apps/cli-darwin-arm64" "2.0.0-beta.1"
+    "@tauri-apps/cli-darwin-x64" "2.0.0-beta.1"
+    "@tauri-apps/cli-linux-arm-gnueabihf" "2.0.0-beta.1"
+    "@tauri-apps/cli-linux-arm64-gnu" "2.0.0-beta.1"
+    "@tauri-apps/cli-linux-arm64-musl" "2.0.0-beta.1"
+    "@tauri-apps/cli-linux-x64-gnu" "2.0.0-beta.1"
+    "@tauri-apps/cli-linux-x64-musl" "2.0.0-beta.1"
+    "@tauri-apps/cli-win32-arm64-msvc" "2.0.0-beta.1"
+    "@tauri-apps/cli-win32-ia32-msvc" "2.0.0-beta.1"
+    "@tauri-apps/cli-win32-x64-msvc" "2.0.0-beta.1"
+
+"@tauri-apps/plugin-shell@^2.0.0-beta.0":
+  version "2.0.0-beta.0"
+  resolved "https://registry.npmmirror.com/@tauri-apps/plugin-shell/-/plugin-shell-2.0.0-beta.0.tgz#96f2742fc8e5db8668560f5be1568b15026f2260"
+  integrity sha512-AADGPuGP+YM5Ar48XfA8o9k9jtlSBpEVcsbOEwWdifi0oAiVOBXgiy9C1Icsub/tlD3YjK7oT8vDcOXLGYBhUg==
+  dependencies:
+    "@tauri-apps/api" "2.0.0-beta.0"
 
 "@types/earcut@^2.1.0":
   version "2.1.4"
@@ -928,7 +935,7 @@ concat-map@0.0.1:
   resolved "https://registry.npmmirror.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
-cross-spawn@^7.0.0:
+cross-spawn@^7.0.0, cross-spawn@^7.0.3:
   version "7.0.3"
   resolved "https://registry.npmmirror.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
   integrity sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
@@ -951,6 +958,13 @@ de-indent@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmmirror.com/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
   integrity sha512-e/1zu3xH5MQryN2zdVaF0OrdNLUbvWxzMbi+iNA6Bky7l1RoP8a2fIbRocyHclXt/arDrrR6lL3TqFD9pMQTsg==
+
+default-gateway@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.npmmirror.com/default-gateway/-/default-gateway-6.0.3.tgz#819494c888053bdb743edbf343d6cdf7f2943a71"
+  integrity sha512-fwSOJsbbNzZ/CUFpqFBqYfYNLj1NbMPm8MMCIzHjC83iSJRBEGmDUxU+WP661BaBQImeC2yHwXtz+P/O9o+XEg==
+  dependencies:
+    execa "^5.0.0"
 
 define-data-property@^1.1.1:
   version "1.1.1"
@@ -1044,6 +1058,21 @@ eventemitter3@^3.1.0:
   version "3.1.2"
   resolved "https://registry.npmmirror.com/eventemitter3/-/eventemitter3-3.1.2.tgz#2d3d48f9c346698fce83a85d7d664e98535df6e7"
   integrity sha512-tvtQIeLVHjDkJYnzf2dgVMxfuSGJeM/7UCG17TT4EumTfNtF+0nebF/4zWOIkCreAbtNqhGEboB6BWrwqNaw4Q==
+
+execa@^5.0.0:
+  version "5.1.1"
+  resolved "https://registry.npmmirror.com/execa/-/execa-5.1.1.tgz#f80ad9cbf4298f7bd1d4c9555c21e93741c411dd"
+  integrity sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==
+  dependencies:
+    cross-spawn "^7.0.3"
+    get-stream "^6.0.0"
+    human-signals "^2.1.0"
+    is-stream "^2.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^4.0.1"
+    onetime "^5.1.2"
+    signal-exit "^3.0.3"
+    strip-final-newline "^2.0.0"
 
 fast-glob@^3.3.0:
   version "3.3.2"
@@ -1142,6 +1171,11 @@ get-intrinsic@^1.0.2, get-intrinsic@^1.1.3, get-intrinsic@^1.2.1, get-intrinsic@
     has-proto "^1.0.1"
     has-symbols "^1.0.3"
     hasown "^2.0.0"
+
+get-stream@^6.0.0:
+  version "6.0.1"
+  resolved "https://registry.npmmirror.com/get-stream/-/get-stream-6.0.1.tgz#a262d8eef67aced57c2852ad6167526a43cbf7b7"
+  integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
 
 gh-pages@^4.0.0:
   version "4.0.0"
@@ -1245,6 +1279,11 @@ he@^1.2.0:
   resolved "https://registry.npmmirror.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
+human-signals@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npmmirror.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
+  integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
+
 inflight@^1.0.4:
   version "1.0.6"
   resolved "https://registry.npmmirror.com/inflight/-/inflight-1.0.6.tgz#49bd6331d7d02d0c09bc910a1075ba8165b56df9"
@@ -1257,6 +1296,26 @@ inherits@2:
   version "2.0.4"
   resolved "https://registry.npmmirror.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
+
+internal-ip@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.npmmirror.com/internal-ip/-/internal-ip-7.0.0.tgz#5b1c6a9d7e188aa73a1b69717daf50c8d8ed774f"
+  integrity sha512-qE4TeD4brqC45Vq/+VASeMiS1KRyfBkR6HT2sh9pZVVCzSjPkaCEfKFU+dL0PRv7NHJtvoKN2r82G6wTfzorkw==
+  dependencies:
+    default-gateway "^6.0.3"
+    ipaddr.js "^2.0.1"
+    is-ip "^3.1.0"
+    p-event "^4.2.0"
+
+ip-regex@^4.0.0:
+  version "4.3.0"
+  resolved "https://registry.npmmirror.com/ip-regex/-/ip-regex-4.3.0.tgz#687275ab0f57fa76978ff8f4dddc8a23d5990db5"
+  integrity sha512-B9ZWJxHHOHUhUjCPrMpLD4xEq35bUTClHM1S6CBU5ixQnkZmwipwgc96vAd7AAGM9TGHvJR+Uss+/Ak6UphK+Q==
+
+ipaddr.js@^2.0.1:
+  version "2.1.0"
+  resolved "https://registry.npmmirror.com/ipaddr.js/-/ipaddr.js-2.1.0.tgz#2119bc447ff8c257753b196fc5f1ce08a4cdf39f"
+  integrity sha512-LlbxQ7xKzfBusov6UMi4MFpEg0m+mAm9xyNGEduwXMEDuf4WfzB/RZwMVYEd7IKGvh4IUkEXYxtAVu9T3OelJQ==
 
 is-binary-path@~2.1.0:
   version "2.1.0"
@@ -1289,10 +1348,22 @@ is-glob@^4.0.1, is-glob@^4.0.3, is-glob@~4.0.1:
   dependencies:
     is-extglob "^2.1.1"
 
+is-ip@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npmmirror.com/is-ip/-/is-ip-3.1.0.tgz#2ae5ddfafaf05cb8008a62093cf29734f657c5d8"
+  integrity sha512-35vd5necO7IitFPjd/YBeqwWnyDWbuLH9ZXQdMfDA8TEo7pv5X8yfrvVO3xbJbLUlERCMvf6X0hTUamQxCYJ9Q==
+  dependencies:
+    ip-regex "^4.0.0"
+
 is-number@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npmmirror.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
+
+is-stream@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.npmmirror.com/is-stream/-/is-stream-2.0.1.tgz#fac1e3d53b97ad5a9d0ae9cef2389f5810a5c077"
+  integrity sha512-hFoiJiTl63nn+kstHGBtewWSKnQLpyb155KHheA1l39uvtO9nWIop1p3udqPcUd/xbF1VLMO4n7OI6p7RbngDg==
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -1373,6 +1444,11 @@ make-dir@^3.0.2:
   dependencies:
     semver "^6.0.0"
 
+merge-stream@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
+  integrity sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==
+
 merge2@^1.3.0:
   version "1.4.1"
   resolved "https://registry.npmmirror.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
@@ -1385,6 +1461,11 @@ micromatch@^4.0.4, micromatch@^4.0.5:
   dependencies:
     braces "^3.0.2"
     picomatch "^2.3.1"
+
+mimic-fn@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npmmirror.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
+  integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
 mini-svg-data-uri@^1.2.3:
   version "1.4.4"
@@ -1434,6 +1515,13 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.npmmirror.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
+npm-run-path@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npmmirror.com/npm-run-path/-/npm-run-path-4.0.1.tgz#b7ecd1e5ed53da8e37a55e1c2269e0b97ed748ea"
+  integrity sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==
+  dependencies:
+    path-key "^3.0.0"
+
 object-assign@^4.0.1, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.npmmirror.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
@@ -1456,6 +1544,25 @@ once@^1.3.0:
   dependencies:
     wrappy "1"
 
+onetime@^5.1.2:
+  version "5.1.2"
+  resolved "https://registry.npmmirror.com/onetime/-/onetime-5.1.2.tgz#d0e96ebb56b07476df1dd9c4806e5237985ca45e"
+  integrity sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==
+  dependencies:
+    mimic-fn "^2.1.0"
+
+p-event@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.npmmirror.com/p-event/-/p-event-4.2.0.tgz#af4b049c8acd91ae81083ebd1e6f5cae2044c1b5"
+  integrity sha512-KXatOjCRXXkSePPb1Nbi0p0m+gQAwdlbhi4wQKJPI1HsMQS9g+Sqp2o+QHziPr7eYJyOZet836KoHEVM1mwOrQ==
+  dependencies:
+    p-timeout "^3.1.0"
+
+p-finally@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
+  integrity sha512-LICb2p9CB7FS+0eR1oqWnHhp0FljGLZCWBE9aix0Uye9W8LTQPwMTYVGWQWIw9RdQiDg4+epXQODwIYJtSJaow==
+
 p-limit@^2.2.0:
   version "2.3.0"
   resolved "https://registry.npmmirror.com/p-limit/-/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
@@ -1469,6 +1576,13 @@ p-locate@^4.1.0:
   integrity sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A==
   dependencies:
     p-limit "^2.2.0"
+
+p-timeout@^3.1.0:
+  version "3.2.0"
+  resolved "https://registry.npmmirror.com/p-timeout/-/p-timeout-3.2.0.tgz#c7e17abc971d2a7962ef83626b35d635acf23dfe"
+  integrity sha512-rhIwUycgwwKcP9yTOOFK/AKsAopjjCakVqLHePO3CC6Mir1Z99xT+R63jZxAT5lFZLa2inS5h+ZS2GvR99/FBg==
+  dependencies:
+    p-finally "^1.0.0"
 
 p-try@^2.0.0:
   version "2.2.0"
@@ -1490,7 +1604,7 @@ path-is-absolute@^1.0.0:
   resolved "https://registry.npmmirror.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
   integrity sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==
 
-path-key@^3.1.0:
+path-key@^3.0.0, path-key@^3.1.0:
   version "3.1.1"
   resolved "https://registry.npmmirror.com/path-key/-/path-key-3.1.1.tgz#581f6ade658cbba65a0d3380de7753295054f375"
   integrity sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
@@ -1772,6 +1886,11 @@ side-channel@^1.0.4:
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
 
+signal-exit@^3.0.3:
+  version "3.0.7"
+  resolved "https://registry.npmmirror.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
+  integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
+
 signal-exit@^4.0.1:
   version "4.1.0"
   resolved "https://registry.npmmirror.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
@@ -1815,6 +1934,11 @@ strip-ansi@^7.0.1:
   integrity sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ==
   dependencies:
     ansi-regex "^6.0.1"
+
+strip-final-newline@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/strip-final-newline/-/strip-final-newline-2.0.0.tgz#89b852fb2fcbe936f6f4b3187afb0a12c1ab58ad"
+  integrity sha512-BrpvfNAE3dcvq7ll3xVumzjKjZQ5tI1sEUIKr3Uoks0XUl45St3FlatVqef9prk4jRDzhW6WZg+3bk93y6pLjA==
 
 strip-outer@^1.0.1:
   version "1.0.1"
@@ -1869,17 +1993,17 @@ tailwindcss@^3.4.1:
     resolve "^1.22.2"
     sucrase "^3.32.0"
 
-"tauri-plugin-autostart-api@https://github.com/tauri-apps/tauri-plugin-autostart#v1":
-  version "0.0.0"
-  resolved "https://github.com/tauri-apps/tauri-plugin-autostart#a534e61e246e6d96ab938fcd3e644dcb74d5c0bf"
+"tauri-plugin-autostart-api@https://github.com/tauri-apps/tauri-plugin-autostart#v2":
+  version "2.0.0-beta.0"
+  resolved "https://github.com/tauri-apps/tauri-plugin-autostart#16f6fe1e6b5d525132aba513ee26106da7223ab1"
   dependencies:
-    "@tauri-apps/api" "1.5.3"
+    "@tauri-apps/api" "2.0.0-beta.0"
 
-"tauri-plugin-store-api@https://github.com/tauri-apps/tauri-plugin-store#v1":
-  version "0.0.0"
-  resolved "https://github.com/tauri-apps/tauri-plugin-store#7d2632996f290b0f18cc5f8a2b2791046400690e"
+"tauri-plugin-store-api@https://github.com/tauri-apps/tauri-plugin-store#v2":
+  version "2.0.0-beta.0"
+  resolved "https://github.com/tauri-apps/tauri-plugin-store#ed76b1f88b5a6729dc66732c8d0ede576f5f1789"
   dependencies:
-    "@tauri-apps/api" "1.5.3"
+    "@tauri-apps/api" "2.0.0-beta.0"
 
 thenify-all@^1.0.0:
   version "1.6.0"

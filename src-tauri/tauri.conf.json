@@ -1,87 +1,73 @@
 {
+  "productName": "Alive",
+  "version": "0.0.2",
+  "identifier": "top.topsea.alive",
   "build": {
-    "beforeDevCommand": "yarn dev",
     "beforeBuildCommand": "yarn build",
-    "devPath": "http://localhost:1420",
-    "distDir": "../dist"
+    "beforeDevCommand": "yarn dev",
+    "devUrl": "http://localhost:1420",
+    "frontendDist": "../dist"
   },
-  "package": {
-    "productName": "Alive",
-    "version": "0.0.2"
-  },
-  "tauri": {
-    "allowlist": {
-      "all": true,
-      "shell": {
-        "all": false,
-        "open": true
-      },
-      "window": {
-        "setSkipTaskbar": true,
-        "startDragging": true,
-        "all": true
-      },
-      "protocol": {
-        "all": true,
-        "asset": true,
-        "assetScope": ["**"]
-      },
-      "fs": {
-        "all": true,
-        "scope": ["$RESOURCE/*"]
-      }
-    },
-    "bundle": {
-      "active": true,
-      "targets": "all",
-      "identifier": "top.topsea.alive",
-      "icon": [
-        "icons/32x32.png",
-        "icons/128x128.png",
-        "icons/128x128@2x.png",
-        "icons/icon.icns",
-        "icons/icon.ico"
-      ],
-      "resources": [
-        "live2d/*",
-        "mmd/*",
-        "data/*"
-      ],
-      "windows": {
-        "wix": {
-          "language": "zh-CN"
-        }
-      }
-    },
+  "app": {
     "security": {
-      "csp": "default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content: file: https://asset.localhost; img-src * data: blob:; asset: https://asset.localhost; connect-src * blob:; script-src 'unsafe-eval';"
+      "assetProtocol": {
+        "enable": true,
+        "scope": [
+          "**"
+        ]
+      },
+      "csp": "default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content: file: https://asset.localhost; img-src * data: blob:; asset: https://asset.localhost; connect-src ipc: http://ipc.localhost * blob:; script-src 'unsafe-eval';"
+    },
+    "trayIcon": {
+      "iconAsTemplate": true,
+      "iconPath": "icons/icon.png"
     },
     "windows": [
       {
-        "label": "main",
         "decorations": false,
         "fullscreen": false,
-        "resizable": true,
-        "width": 800,
         "height": 600,
-        "transparent": true
+        "label": "main",
+        "resizable": true,
+        "transparent": true,
+        "width": 800
       }
+    ]
+  },
+  "bundle": {
+    "active": true,
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
     ],
-    "systemTray": {
-      "iconPath": "icons/icon.png",
-      "iconAsTemplate": true
+    "resources": [
+      "live2d/*",
+      "mmd/*",
+      "data/*"
+    ],
+    "targets": "all",
+    "windows": {
+      "wix": {
+        "language": "zh-CN"
+      }
+    }
+  },
+  "plugins": {
+    "shell": {
+      "open": true
     },
     "updater": {
-      "active": true,
       "endpoints": [
         "https://gitee.com/topsea/alive-release/raw/master/alive_latest.json",
         "https://raw.githubusercontent.com/TopSea/Alive/main/docs/alive_latest.json"
       ],
-      "dialog": false,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDcxODBGM0UxQ0Q3RkY1MTkKUldRWjlYL040Zk9BY2NrU3VsU3JVcHo4QVBoRDFWM2NvcnM4NFgzU1NybTUxTUNHb3ZVQnp0VE4K",
       "windows": {
         "installMode": "basicUi"
-      },
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDcxODBGM0UxQ0Q3RkY1MTkKUldRWjlYL040Zk9BY2NrU3VsU3JVcHo4QVBoRDFWM2NvcnM4NFgzU1NybTUxTUNHb3ZVQnp0VE4K"
+      }
     }
   }
 }

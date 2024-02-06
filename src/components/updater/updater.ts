@@ -1,7 +1,7 @@
 import { createApp } from "vue";
 import "../../styles.css";
 import Updater from "./Updater.vue";
-import { checkUpdate } from "@tauri-apps/api/updater";
+import { checkUpdate } from "@tauri-apps/plugin-updater";
 
 import zh_CN from "../lang/zh_CN.json"
 import en_US from "../lang/en_US.json"
