@@ -1,52 +1,42 @@
 <script setup lang="ts">
 import { getVersion } from "@tauri-apps/api/app";
 import { txt, txtHover, bg, } from "../../theme/color";
-import { relaunch } from '@tauri-apps/api/process'
-import { onUnmounted, onBeforeMount, ref } from "vue";
+import { relaunch } from "@tauri-apps/plugin-process";
+import { onBeforeMount, ref } from "vue";
 import { useI18n } from "vue-i18n";
-import { installUpdate, checkUpdate, onUpdaterEvent } from "@tauri-apps/api/updater";
-import { UnlistenFn } from "@tauri-apps/api/event";
+import { Update, check } from "@tauri-apps/plugin-updater";
 import { ArrowDownOnSquareStackIcon } from '@heroicons/vue/24/outline'
-import { appWindow } from '@tauri-apps/api/window';
+import { getCurrent } from '@tauri-apps/api/window';
 
 const { t } = useI18n();
-var unlistenUpdate: UnlistenFn | null = null;
 const aliveVersion = ref("_")
 const version = ref()
 const date = ref()
 const content = ref()
 const downloading = ref(false)
+var update: Update|null = null
 
 async function updateAlive() {
   downloading.value = true
-  await installUpdate()
-  await relaunch()
+  await update?.downloadAndInstall();
+  await relaunch();
 }
 async function closeUpdate() {
-  await appWindow.close()
+  await getCurrent().close()
 }
 
 onBeforeMount(async () => {
   aliveVersion.value = await getVersion();
 
-  unlistenUpdate = await onUpdaterEvent(({ error, status }) => {
-    // This will log all updater events, including status updates and errors.
-    console.log('Updater event', error, status)
-  })
-  const { manifest } = await checkUpdate();
-  console.log('manifest： ', manifest)
-  version.value = manifest?.version
-  const rDate = manifest?.date as string
+  update = await check();
+  console.log('manifest： ', update)
+  version.value = update?.version
+  const rDate = update?.date as string
   const rDayI = rDate.indexOf(" ")
   date.value = rDate.substring(0, rDayI)
-  const body = manifest?.body as string
+  const body = update?.body as string
   content.value = body.split(';')
 
-})
-onUnmounted(() => {
-  if (unlistenUpdate !== null) {
-    unlistenUpdate();
-  }
 })
 </script>
 

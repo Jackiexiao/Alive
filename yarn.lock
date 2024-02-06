@@ -608,10 +608,45 @@
     "@tauri-apps/cli-win32-ia32-msvc" "2.0.0-beta.1"
     "@tauri-apps/cli-win32-x64-msvc" "2.0.0-beta.1"
 
+"@tauri-apps/plugin-autostart@^2.0.0-beta.0":
+  version "2.0.0-beta.0"
+  resolved "https://registry.npmmirror.com/@tauri-apps/plugin-autostart/-/plugin-autostart-2.0.0-beta.0.tgz#4115ec916a2c1593ea3a79ee556a3e01a5dc94fc"
+  integrity sha512-2/whXFP1qt3hQBg1z79DBiK9f4C8KtnGYQnLXAnhhpJKBCA/vaA2xs75IZA+NInI5/dTK7r4nR9PkPBm7AXh7A==
+  dependencies:
+    "@tauri-apps/api" "2.0.0-beta.0"
+
+"@tauri-apps/plugin-fs@^2.0.0-beta.0":
+  version "2.0.0-beta.0"
+  resolved "https://registry.npmmirror.com/@tauri-apps/plugin-fs/-/plugin-fs-2.0.0-beta.0.tgz#bab917941a8197af3f25a18f38595c39e9cdfe85"
+  integrity sha512-oFAA8T5wyg5dmsF/WmjjtUMEnJtzu+p2ElsK2FdwLVSB2AdAdud5izZhd1o63HFjR6waiIYebSI+llzJG7b5MQ==
+  dependencies:
+    "@tauri-apps/api" "2.0.0-beta.0"
+
+"@tauri-apps/plugin-process@^2.0.0-beta.0":
+  version "2.0.0-beta.0"
+  resolved "https://registry.npmmirror.com/@tauri-apps/plugin-process/-/plugin-process-2.0.0-beta.0.tgz#4f449cfd8cbe48c0e0cd13209b9eaf2c1a9868f1"
+  integrity sha512-tKWua399alYVYSLhAGArrEOpGEC1v2FJlUku0oWROzDnEYNdAekP4SMzVPVUUdVH7r6zoaTorWUgXBfspyCGxw==
+  dependencies:
+    "@tauri-apps/api" "2.0.0-beta.0"
+
 "@tauri-apps/plugin-shell@^2.0.0-beta.0":
   version "2.0.0-beta.0"
   resolved "https://registry.npmmirror.com/@tauri-apps/plugin-shell/-/plugin-shell-2.0.0-beta.0.tgz#96f2742fc8e5db8668560f5be1568b15026f2260"
   integrity sha512-AADGPuGP+YM5Ar48XfA8o9k9jtlSBpEVcsbOEwWdifi0oAiVOBXgiy9C1Icsub/tlD3YjK7oT8vDcOXLGYBhUg==
+  dependencies:
+    "@tauri-apps/api" "2.0.0-beta.0"
+
+"@tauri-apps/plugin-store@^2.0.0-beta.0":
+  version "2.0.0-beta.0"
+  resolved "https://registry.npmmirror.com/@tauri-apps/plugin-store/-/plugin-store-2.0.0-beta.0.tgz#ca9a25454bf6979767102b21f74411dce7ecdd68"
+  integrity sha512-DT3pzMyNcgO90hDgmnN7j5fYQIaaD54gbi0oKi7n4Nwa6y5GqHsgpnzot9IBSOTS6kYy6D8yrN43XN/xwG4vUg==
+  dependencies:
+    "@tauri-apps/api" "2.0.0-beta.0"
+
+"@tauri-apps/plugin-updater@^2.0.0-beta.0":
+  version "2.0.0-beta.0"
+  resolved "https://registry.npmmirror.com/@tauri-apps/plugin-updater/-/plugin-updater-2.0.0-beta.0.tgz#dc02bd878103a6b4dcf2bbdc83f4afae3463d892"
+  integrity sha512-TkKzngrgg8dQOr869OcObLdN10yXNiT/ERQp7sRYvV0vMpRJhYSIwTkpF+UkZGuEXtSqqE0FJEnb+4WuCelMdw==
   dependencies:
     "@tauri-apps/api" "2.0.0-beta.0"
 
@@ -1992,18 +2027,6 @@ tailwindcss@^3.4.1:
     postcss-selector-parser "^6.0.11"
     resolve "^1.22.2"
     sucrase "^3.32.0"
-
-"tauri-plugin-autostart-api@https://github.com/tauri-apps/tauri-plugin-autostart#v2":
-  version "2.0.0-beta.0"
-  resolved "https://github.com/tauri-apps/tauri-plugin-autostart#16f6fe1e6b5d525132aba513ee26106da7223ab1"
-  dependencies:
-    "@tauri-apps/api" "2.0.0-beta.0"
-
-"tauri-plugin-store-api@https://github.com/tauri-apps/tauri-plugin-store#v2":
-  version "2.0.0-beta.0"
-  resolved "https://github.com/tauri-apps/tauri-plugin-store#ed76b1f88b5a6729dc66732c8d0ede576f5f1789"
-  dependencies:
-    "@tauri-apps/api" "2.0.0-beta.0"
 
 thenify-all@^1.0.0:
   version "1.6.0"

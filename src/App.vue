@@ -4,8 +4,8 @@ import Live2d from "./components/live2d/Live2d.vue";
 import MMD from "./components/mmd/MMD.vue"
 import { UnlistenFn, listen } from "@tauri-apps/api/event";
 import { join, resourceDir } from "@tauri-apps/api/path";
-import { Store } from "tauri-plugin-store-api";
-import { WebviewWindow, appWindow } from "@tauri-apps/api/window";
+import { Store } from "@tauri-apps/plugin-store";
+import { getCurrent, Window } from "@tauri-apps/api/window";
 import { changeDisplayMode, } from "./theme/theme";
 import { onUnmounted } from "vue";
 import { checkAliveUpdate } from "./components/updater/updater";
@@ -15,13 +15,16 @@ const isMMD = ref()
 const autoCheck = ref()
 var unlistenSys: UnlistenFn | null = null;
 var unlistenUpdate: UnlistenFn | null = null;
+var appWindow: Window| null = null;
 
 async function initSettings() {
+  appWindow = await getCurrent()
   const resourceDirPath = await resourceDir();
   const path = await join(resourceDirPath, 'data', 'sets_alive.json');
   console.log("path: ", path);
   const store = new Store(path);
   isMMD.value = await store.get("is_mmd") as boolean
+  console.log("isMMD: ", isMMD.value);
   autoCheck.value = await store.get("auto_check") as boolean
   const sDisplayMode = await store.get("display_mode") as string
 
@@ -47,10 +50,10 @@ async function listenEvents() {
   await listen('change_mode', async (event: any) => {
     const mode = event.payload as string
     if (mode === "follow") {
-      const currTheme = await appWindow.theme();
+      const currTheme = await appWindow!.theme();
       console.log('currTheme: ' + currTheme);
       changeDisplayMode(currTheme === "dark")
-      unlistenSys = await appWindow.onThemeChanged(({ payload: theme }) => {
+      unlistenSys = await appWindow!.onThemeChanged(({ payload: theme }) => {
         console.log('New theme: ' + theme);
         changeDisplayMode(theme === "dark")
       });
@@ -68,12 +71,12 @@ async function listenEvents() {
 
 function openSettings() {
   if (settingsOpened) {
-    const settingsWindow = WebviewWindow.getByLabel('tauri_win_settings');
+    const settingsWindow = Window.getByLabel('tauri_win_settings');
     settingsWindow?.show();
     settingsWindow?.unminimize();
     settingsWindow?.setFocus();
   } else {
-    const settingsWindow = new WebviewWindow('tauri_win_settings', {
+    const settingsWindow = new Window('tauri_win_settings', {
       url: '/pages/settings.html',
       x: 64,
       y: 64,

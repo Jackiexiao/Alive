@@ -12,13 +12,16 @@ import {
 import { FilmIcon } from '@heroicons/vue/24/outline'
 import { listen, emit as tauriEmit } from '@tauri-apps/api/event';
 import { join, resourceDir } from "@tauri-apps/api/path";
-import { Store } from "tauri-plugin-store-api";
+import { Store } from "@tauri-apps/plugin-store";
 import NumChange from "../NumChange.vue";
 
 const resourceDirPath = await resourceDir();
 const path = await join(resourceDirPath, 'data', 'sets_mmd.json');
+console.log("path:", path);
+
 const store = new Store(path);
 const mmdAliveUrl = await store.get("mmd_alive_url") as string;
+console.log("mmdAliveUrl:", mmdAliveUrl);
 const sVolume = ref(await store.get("volume") as number)
 const sMmdCamera = ref(await store.get("is_mmd_camera") as boolean)
 const sPaused = ref(await store.get("is_paused") as boolean)

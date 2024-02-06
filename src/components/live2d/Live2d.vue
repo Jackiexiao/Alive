@@ -9,7 +9,7 @@ import {
   SpeakerXMarkIcon
 } from '@heroicons/vue/24/solid'
 import NumChange from "../NumChange.vue";
-import { Store } from "tauri-plugin-store-api";
+import { Store } from "@tauri-apps/plugin-store";
 import { join, resourceDir } from "@tauri-apps/api/path";
 import { listen, emit as tauriEmit } from "@tauri-apps/api/event";
 

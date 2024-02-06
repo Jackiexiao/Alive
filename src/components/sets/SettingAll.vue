@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Store } from "tauri-plugin-store-api";
+import { Store } from "@tauri-apps/plugin-store";
 import { join, resourceDir } from "@tauri-apps/api/path";
 import { enable, disable } from "tauri-plugin-autostart-api";
 import { WebviewWindow, appWindow } from '@tauri-apps/api/window';
